@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="n1">
+    <input type="text" id="n2">
+
+    <input type="checkbox" name="checkbox1" id="checkbox1">
+    <label for="checkbox1">+</label>
+
+    <input type="checkbox" name="checkbox2" id="checkbox2">
+    <label for="checkbox2">-</label>
+
+    <input type="checkbox" name="checkbox3" id="checkbox3">
+    <label for="checkbox3">*</label>
+
+    <input type="checkbox" name="checkbox4" id="checkbox4">
+    <label for="checkbox4">/</label><br>
+    <div id="Resul"></div>
+    <input type="button" value="Ok" id="btn">
+
+</body>
+
+<script>
+    document.addEventListener("click", 
+    function resultado(){
+        document.getElementById("Resul").innerHTML = "Não precisa funcionar";
+    })
+</script>
+</html>
